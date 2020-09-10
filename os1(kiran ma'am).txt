@@ -1,0 +1,42 @@
+Assignemnt-1 Create different types of Files.
+.................................................................
+
+nidhi@LAPTOP-Q4L6OA9H:~$ ls
+a       c      copy.txt  demo.test  nidhiU  os2  os8
+add.sh  cdac1  dac-dir   listing    os      os6  print.tt
+b       clear  demo.sh   nidhi      os1     os7
+
+
+nidhi@LAPTOP-Q4L6OA9H:~$ cd os
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch a1.text
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch A1.text
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch A1.Text
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch A1.TEXT
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch A1.text.text
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch A1.text.html
+nidhi@LAPTOP-Q4L6OA9H:~/os$  cat >A1.text.js
+
+nidhi@LAPTOP-Q4L6OA9H:~/os$ ls
+A1.TEXT  A1.text       A1.text.js    a1.text
+A1.Text  A1.text.html  A1.text.text
+nidhi@LAPTOP-Q4L6OA9H:~/os$  touch .a1.text
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch .b1
+nidhi@LAPTOP-Q4L6OA9H:~/os$ ls -l
+total 0
+-rw-rw-rw- 1 nidhi nidhi 0 Sep  7 23:36 A1.TEXT
+-rw-rw-rw- 1 nidhi nidhi 0 Sep  7 23:36 A1.Text
+-rw-rw-rw- 1 nidhi nidhi 0 Sep  7 23:25 A1.text
+-rw-rw-rw- 1 nidhi nidhi 0 Sep  7 23:41 A1.text.html
+-rw-rw-rw- 1 nidhi nidhi 1 Sep  7 23:43 A1.text.js
+-rw-rw-rw- 1 nidhi nidhi 0 Sep  7 23:41 A1.text.text
+-rw-rw-rw- 1 nidhi nidhi 0 Sep  7 23:25 a1.text
+nidhi@LAPTOP-Q4L6OA9H:~/os$ ls -a
+.   .a1.text  A1.TEXT  A1.text       A1.text.js    a1.text
+..  .b1       A1.Text  A1.text.html  A1.text.text
+
+
+nidhi@LAPTOP-Q4L6OA9H:~/os$ touch A1.text.html.js.cpp
+nidhi@LAPTOP-Q4L6OA9H:~/os$ ls
+A1.TEXT  A1.text       A1.text.html.js.cpp  A1.text.text
+A1.Text  A1.text.html  A1.text.js           a1.text
+nidhi@LAPTOP-Q4L6OA9H:~/os$
